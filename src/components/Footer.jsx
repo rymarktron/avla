@@ -10,7 +10,10 @@ export function Footer() {
       <Container>
         <div className="py-16">
           <Logo className="w-auto h-10 mx-auto" />
-          <nav className="mt-10 text-sm" aria-label="quick links">
+          <div className="flex justify-center mt-4 -my-1 text-sm gap-x-6">
+          <p class="text-purple-800">Your <span class="text-pink-400">Personal</span> <span class="text-blue-600">Learning</span> <span class="text-orange-600">Assistant</span></p>
+          </div>
+          <nav className="mt-4 text-sm" aria-label="quick links">
             <div className="flex justify-center -my-1 gap-x-6">
               <NavLink href="#features">Features</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
