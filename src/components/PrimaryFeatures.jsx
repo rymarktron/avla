@@ -13,27 +13,27 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Learning',
+    title: 'Audio',
     description:
       "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
     image: screenshotPayroll,
   },
   {
-    title: 'History',
+    title: 'Visual',
     description:
-      "Keep track of all your past questions so you can learn from your mistakes and not repeat them.",
+      "We offer images and a visual avatar to interact with you improving the interaction on the website.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Learning',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "We encourage different ways of thinking. We don't want you to just memorize the answers.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Assistant',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'Supports you like a friend. It will ask questions and give encouragement when you need it.',
     image: screenshotReporting,
   },
 ]
