@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import backgroundImage from '@/images/background-auth.jpg'
 
-export function AuthLayout({ children }) {
+export function DemoLayout({ children }) {
   return (
     <>
       <div className="relative flex justify-center min-h-full md:px-12 lg:px-0">
@@ -12,12 +12,8 @@ export function AuthLayout({ children }) {
           </div>
         </div>
         <div className="hidden sm:contents lg:relative lg:block lg:flex-1">
-          <Image
-            className="absolute inset-0 object-cover w-full h-full"
-            src={backgroundImage}
-            alt=""
-            unoptimized
-          />
+        < div className="absolute inset-0 z-[-1] py-20 sm:py-32 bg-gradient-to-r from-orange-400 to-pink-400 opacity-80" />
+
         </div>
       </div>
     </>

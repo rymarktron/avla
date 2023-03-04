@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { AuthLayout } from '@/components/AuthLayout'
 import { Button } from '@/components/Button'
 import { TextField } from '@/components/Fields'
+import { Logo } from '@/components/Logo'
 
 export default function Login() {
   return (
@@ -13,6 +14,9 @@ export default function Login() {
       </Head>
       <AuthLayout>
         <div className="flex flex-col">
+          <Link href="/" aria-label="Home">
+            <Logo className="w-auto h-10" />
+          </Link>
           <div className="mt-20">
             <h2 className="text-lg font-semibold text-gray-900">
               Sign in to your account
