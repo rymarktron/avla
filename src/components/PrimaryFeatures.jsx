@@ -6,10 +6,10 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
 import backgroundImage_2 from '@/images/background-icons.png'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import prototype_1 from '@/images/screenshots/prototype-4.png'
+import prototype_2 from '@/images/screenshots/prototype-1.png'
+import prototype_3 from '@/images/screenshots/prototype-2.png'
+import prototype_4 from '@/images/screenshots/prototype-3.png'
 
 const features = [
   {
@@ -17,28 +17,28 @@ const features = [
     color: 'purple-800',
     description:
       "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+    image: prototype_1,
   },
   {
     title: 'Visual',
     color: 'pink-400',
     description:
       "We offer images and a visual avatar to interact with you improving the interaction on the website.",
-    image: screenshotExpenses,
+    image: prototype_2,
   },
   {
     title: 'Learning',
     color: 'blue-600',
     description:
       "We encourage different ways of thinking. We don't want you to just memorize the answers.",
-    image: screenshotVatReturns,
+    image: prototype_3,
   },
   {
     title: 'Assistant',
     color: 'orange-400',
     description:
       'Supports you like a friend. It will ask questions and give encouragement when you need it.',
-    image: screenshotReporting,
+    image: prototype_4,
   },
 ]
 
