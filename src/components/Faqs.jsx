@@ -17,7 +17,7 @@ const faqs = [
     {
       question: 's there a free version of your learning assistant?',
       answer:
-        'es, we offer a free version of our learning assistant with limited capabilities. The free version includes access to a subset of our content library, but does not include features such as progress tracking, personalized recommendations, or advanced analytics.',
+        'Yes, we offer a free version of our learning assistant with limited capabilities. The free version includes access to a subset of our content library, but does not include features such as progress tracking, personalized recommendations, or advanced analytics.',
     },
   ],
   [

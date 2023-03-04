@@ -14,13 +14,14 @@ export default function Demo() {
   //Use States used
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [text, setText] = useState('');
+  const [gender, setGender] = useState('');
   const speechConfig = sdk.SpeechConfig.fromSubscription(process.env.NEXT_PUBLIC_TEXT_TO_SPEECH_API_KEY, 'eastus');
   
   const synthesizeSpeech = () => {
     const audioConfig = sdk.AudioConfig.fromDefaultSpeakerOutput();
     const synthesizer = new sdk.SpeechSynthesizer(speechConfig, audioConfig);
     const ssml = `<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'>
-                   <voice name='en-US-JessaNeural'>
+                   <voice name='en-US-JacobNeural'>
                      ${text}
                    </voice>
                  </speak>`;
@@ -78,12 +79,11 @@ export default function Demo() {
           />
         </form>
 
-            
-        <div className="col-span-full">
+        <div className="pt-4 col-span-full">
             <Button
               type="submit"
               variant="solid"
-              color="orange"
+              class="bg-orange-500 hover:bg-pink-500 focus:bg-pink-500 text-white font-bold py-2 px-4 rounded-full"
               className="w-full"
               onClick={synthesizeSpeech} 
               disabled={isSpeaking}
