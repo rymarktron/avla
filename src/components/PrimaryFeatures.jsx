@@ -64,24 +64,17 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative pt-20 overflow-hidden bg-orange-400 pb-28 sm:py-32"
+      className="relative pt-20 overflow-hidden bg-orange-400 pb-28 sm:py-32 bg-gradient-to-r from-orange-400 to-pink-400 opacity-80"
     >
-      <Image
-        className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
-        src={backgroundImage_2}
-        alt=""
-        width={2245}
-        height={1636}
-        unoptimized
-      />
+
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="text-3xl tracking-tight text-white font-display sm:text-4xl md:text-5xl">
             Everything you need to get the help you need.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-orange-100">
-          Our <span class="text-purple-800">Visual </span> 
-          <span class="text-pink-400">Learning </span> 
+          Our <span class="text-purple-800">Audio </span> 
+          <span class="text-pink-400">Visual </span> 
           <span class="text-blue-600">Learning </span> 
           <span class="text-orange-600">Assistant </span>
           - AVLA! Our website is easy to use and will help you learn.
@@ -164,3 +157,15 @@ export function PrimaryFeatures() {
 
 
 //  <div className={`text-${feature.color}`}>
+/*
+
+<Image
+        className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
+        src={backgroundImage_2}
+        alt=""
+        width={2245}
+        height={1636}
+        unoptimized
+      />
+
+      */

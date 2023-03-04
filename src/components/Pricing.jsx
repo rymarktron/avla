@@ -110,7 +110,7 @@ export function Pricing() {
             for everyone.
           </h2>
           <p className="mt-4 text-lg text-slate-800">
-            It doesn’t matter what size your business is, our software won’t
+            It doesn’t matter what size your business is, our software will
             work well for you.
           </p>
         </div>

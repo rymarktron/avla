@@ -108,9 +108,9 @@ export function Header() {
             <div className="hidden md:block">
               <NavLink href="/login">Sign in</NavLink>
             </div>
-            <Button href="/demo" color="blue">
+            <Button href="/demo" className="bg-orange-500 hover:bg-pink-500">
               <span>
-                Get started <span className="hidden lg:inline">today</span>
+                Demo
               </span>
             </Button>
             <div className="-mr-1 md:hidden">

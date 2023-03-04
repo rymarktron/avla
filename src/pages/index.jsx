@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import { CallToAction } from '@/components/CallToAction'
+//import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -24,7 +24,6 @@ export default function Home() {
       <main>
         <Hero />
         <PrimaryFeatures />
-        <CallToAction />
         <Testimonials />
         <Pricing />
         <Faqs />

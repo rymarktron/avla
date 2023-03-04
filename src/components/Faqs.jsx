@@ -67,7 +67,7 @@ export function Faqs() {
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2
             id="faq-title"
-            className="text-3xl tracking-tight font-display text-slate-900 sm:text-4xl"
+            className="text-3xl tracking-tight text-transparent font-display bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text opacity-80 sm:text-4xl"
           >
             Frequently asked questions
           </h2>
@@ -85,7 +85,7 @@ export function Faqs() {
               <ul role="list" className="flex flex-col gap-y-8">
                 {column.map((faq, faqIndex) => (
                   <li key={faqIndex}>
-                    <h3 className="text-lg leading-7 font-display text-slate-900">
+                    <h3 className="text-lg leading-7 font-display text-slate-700">
                       {faq.question}
                     </h3>
                     <p className="mt-4 text-sm text-slate-700">{faq.answer}</p>

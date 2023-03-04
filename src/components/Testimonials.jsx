@@ -88,11 +88,11 @@ export function Testimonials() {
       <Container>
         <div className="max-w-2xl mx-auto md:text-center">
           <h2 className="text-3xl tracking-tight font-display text-slate-900 sm:text-4xl">
-            Loved by students, parents, and teachers worldwide.
+             Loved by students, parents, and teachers worldwide ♡
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Our <span class="text-purple-800">Visual </span> 
-          <span class="text-pink-400">Learning </span> 
+          Our <span class="text-purple-800">Audio </span> 
+          <span class="text-pink-400">Visual </span> 
           <span class="text-blue-600">Learning </span> 
           <span class="text-orange-600">Assistant </span>
           is both user-friendly and 

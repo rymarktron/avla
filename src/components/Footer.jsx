@@ -11,7 +11,7 @@ export function Footer() {
         <div className="py-16">
           <Logo className="w-auto h-12 mx-auto" />
           <div className="flex justify-center mt-4 -my-1 text-sm font-medium gap-x-6">
-          <p class="text-slate-800">Your Personal <span class="text-purple-800">Visual</span> <span class="text-pink-400">Learning</span> <span class="text-blue-600">Learning</span> <span class="text-orange-600">Assistant</span></p>
+          <p class="text-slate-800">Your Personal <span class="text-purple-800">Audio</span> <span class="text-pink-400">Visual</span> <span class="text-blue-600">Learning</span> <span class="text-orange-600">Assistant</span></p>
           </div>
           <nav className="mt-4 text-sm" aria-label="quick links">
             <div className="flex justify-center -my-1 gap-x-6">
