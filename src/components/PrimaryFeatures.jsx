@@ -14,24 +14,28 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 const features = [
   {
     title: 'Audio',
+    color: 'purple-800',
     description:
       "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
     image: screenshotPayroll,
   },
   {
     title: 'Visual',
+    color: 'pink-400',
     description:
       "We offer images and a visual avatar to interact with you improving the interaction on the website.",
     image: screenshotExpenses,
   },
   {
     title: 'Learning',
+    color: 'blue-400',
     description:
       "We encourage different ways of thinking. We don't want you to just memorize the answers.",
     image: screenshotVatReturns,
   },
   {
     title: 'Assistant',
+    color: 'orange-400',
     description:
       'Supports you like a friend. It will ask questions and give encouragement when you need it.',
     image: screenshotReporting,
@@ -76,8 +80,7 @@ export function PrimaryFeatures() {
             Everything you need to get the help you need.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-orange-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Audio Visual Learning Assistant - AVLA! Our website is easy to use and will help you learn.
           </p>
         </div>
         <Tab.Group
@@ -104,7 +107,7 @@ export function PrimaryFeatures() {
                           className={clsx(
                             'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
                             selectedIndex === featureIndex
-                              ? 'text-orange-400 lg:text-white'
+                              ? `text-${feature.color} lg:text-white`
                               : 'text--100 hover:text-white lg:text-white'
                           )}
                         >
@@ -131,7 +134,7 @@ export function PrimaryFeatures() {
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative sm:px-6 lg:hidden">
                       <div className="absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
-                      <p className="relative max-w-2xl mx-auto text-base text-white sm:text-center">
+                      <p className="relative max-w-2xl mx-auto text-base text-white sm:text-center ">
                         {feature.description}
                       </p>
                     </div>
@@ -154,3 +157,6 @@ export function PrimaryFeatures() {
     </section>
   )
 }
+
+
+//  <div className={`text-${feature.color}`}>
