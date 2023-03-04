@@ -98,7 +98,7 @@ export function Pricing() {
     <section
       id="pricing"
       aria-label="Pricing"
-      className="py-20 sm:py-32 bg-gradient-to-r from-orange-400 to-pink-400"
+      className="py-20 sm:py-32 bg-gradient-to-r from-orange-400 to-pink-400 opacity-80"
     >
       <Container>
         <div className="md:text-center">
@@ -109,7 +109,7 @@ export function Pricing() {
             </span>{' '}
             for everyone.
           </h2>
-          <p className="mt-4 text-lg text-slate-400">
+          <p className="mt-4 text-lg text-slate-800">
             It doesn’t matter what size your business is, our software won’t
             work well for you.
           </p>

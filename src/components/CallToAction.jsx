@@ -9,16 +9,11 @@ export function CallToAction() {
   return (
     <section
       id="get-started-today"
-      className="relative py-32 overflow-hidden bg-orange-600"
+      className="relative py-32 overflow-hidden bg-gradient-to-r from-orange-400 to-pink-400 opacity-80"
     >
-      <Image
-        className="absolute -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 max-w-none"
-        src={backgroundImage_2}
-        alt=""
-        width={2347}
-        height={1244}
-        unoptimized
-      />
+      
+      <div className="absolute inset-0 z-[-1] py-20 sm:py-32 bg-gradient-to-r from-orange-400 to-pink-400 opacity-80" />
+
       <Container className="relative">
         <div className="max-w-lg mx-auto text-center">
           <h2 className="text-3xl tracking-tight text-white font-display sm:text-4xl">
