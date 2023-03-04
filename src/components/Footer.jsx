@@ -9,7 +9,7 @@ export function Footer() {
     <footer className="bg-slate-50">
       <Container>
         <div className="py-16">
-          <Logo className="w-auto h-10 mx-auto" />
+          <Logo className="w-auto h-12 mx-auto" />
           <div className="flex justify-center mt-4 -my-1 text-sm font-medium gap-x-6">
           <p class="text-slate-800">Your Personal <span class="text-purple-800">Visual</span> <span class="text-pink-400">Learning</span> <span class="text-blue-600">Learning</span> <span class="text-orange-600">Assistant</span></p>
           </div>
