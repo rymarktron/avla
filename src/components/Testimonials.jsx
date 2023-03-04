@@ -91,7 +91,11 @@ export function Testimonials() {
             Loved by students, parents, and teachers worldwide.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Our audio visual learning assistant software is both user-friendly and 
+          Our <span class="text-purple-800">Visual </span> 
+          <span class="text-pink-400">Learning </span> 
+          <span class="text-blue-600">Learning </span> 
+          <span class="text-orange-600">Assistant </span>
+          is both user-friendly and 
           feature-packed, offering a simple yet comprehensive solution for effective learning.
           </p>
         </div>

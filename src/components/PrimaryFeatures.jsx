@@ -28,7 +28,7 @@ const features = [
   },
   {
     title: 'Learning',
-    color: 'blue-400',
+    color: 'blue-600',
     description:
       "We encourage different ways of thinking. We don't want you to just memorize the answers.",
     image: screenshotVatReturns,
@@ -80,7 +80,11 @@ export function PrimaryFeatures() {
             Everything you need to get the help you need.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-orange-100">
-            Audio Visual Learning Assistant - AVLA! Our website is easy to use and will help you learn.
+          Our <span class="text-purple-800">Visual </span> 
+          <span class="text-pink-400">Learning </span> 
+          <span class="text-blue-600">Learning </span> 
+          <span class="text-orange-600">Assistant </span>
+          - AVLA! Our website is easy to use and will help you learn.
           </p>
         </div>
         <Tab.Group

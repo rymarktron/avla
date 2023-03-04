@@ -10,8 +10,7 @@ export function CallToAction() {
     <section
       id="get-started-today"
       className="relative py-32 overflow-hidden bg-gradient-to-r from-orange-400 to-pink-400 opacity-80"
-    >
-      
+    >      
       <div className="absolute inset-0 z-[-1] py-20 sm:py-32 bg-gradient-to-r from-orange-400 to-pink-400 opacity-80" />
 
       <Container className="relative">
