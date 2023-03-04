@@ -51,7 +51,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
     <section
       className={clsx(
         'flex flex-col rounded-3xl px-6 sm:px-8',
-        featured ? 'order-first bg-slate-600 py-8 lg:order-none' : 'lg:py-8'
+        featured ? 'order-first bg-slate-500 py-8 lg:order-none' : 'lg:py-8'
       )}
     >
       <h3 className="mt-5 text-lg text-white font-display">{name}</h3>
@@ -118,45 +118,43 @@ export function Pricing() {
           <Plan
             featured
             name="Starter"
-            price="$9"
+            price="$20"
             description="Good for anyone who is self-employed and just getting started."
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Save up to 10 questions at a time',
+              'Use on one primary device',
+              'Track your progress over time with analytics',
+              'Full access to AVLA support',
             ]}
           />
           <Plan
             featured
             name="Small business"
-            price="$15"
+            price="$500"
             description="Perfect for small / medium sized businesses."
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Save up to 50 questions at a time and save history',
+              'Connect on up to four device',
+              'Track your progress over time with analytics',
+              'Full access to AVLA support and API',
+              'Access to question bank from users'
             ]}
           />
           <Plan
             featured
             name="Educational Institutions"
-            price="$5/user"
+            price="$1/user"
             description="For even the biggest enterprise companies."
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Save up to 50 questions at a time and save history',
+              'Connect on up to four device',
+              'Track your progress over time with analytics',
+              'Full access to AVLA support and API',
+              'Access to question bank from users',
+              'Teachers dashboard for smart analytics on students'
             ]}
           />
         </div>
