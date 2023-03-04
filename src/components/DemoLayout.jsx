@@ -12,8 +12,7 @@ export function DemoLayout({ children }) {
           </div>
         </div>
         <div className="hidden sm:contents lg:relative lg:block lg:flex-1">
-        < div className="absolute inset-0 z-[-1] py-20 sm:py-32 bg-gradient-to-r from-orange-400 to-pink-400 opacity-80" />
-
+        <div className="absolute inset-0 z-[-1] py-20 sm:py-32 bg-gradient-to-r from-orange-400 to-pink-400 opacity-80" />
         </div>
       </div>
     </>
