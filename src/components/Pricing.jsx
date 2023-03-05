@@ -54,7 +54,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
         featured ? 'order-first bg-slate-500 py-8 lg:order-none' : 'lg:py-8'
       )}
     >
-      <h3 className="mt-5 text-lg text-white font-display">{name}</h3>
+      <h3 className="mt-5 text-lg text-white font-display">{price}</h3>
       <p
         className={clsx(
           'mt-2 text-base',
@@ -63,8 +63,8 @@ function Plan({ name, price, description, href, features, featured = false }) {
       >
         {description}
       </p>
-      <p className="order-first text-5xl font-light tracking-tight text-white font-display">
-        {price}
+      <p className="order-first text-4xl font-light tracking-tight text-white font-display">
+        {name}
       </p>
       <ul
         role="list"
