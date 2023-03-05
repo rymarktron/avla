@@ -114,45 +114,31 @@ export function Pricing() {
             work well for you.
           </p>
         </div>
-        <div className="grid max-w-2xl grid-cols-1 mt-16 -mx-4 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="grid max-w-2xl grid-cols-1 mt-16 -mx-4 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8 gap-x-8">
+        <Plan
+            featured
+            name="AVLA AccessED"
+            price="Free"
+            description="Accessible to the public."
+            href="/register"
+            features={[
+              'Full access to app features',
+              'Track your progress over time with analytics',
+              'Multidevice compatibility',
+              'Full access to AVLA support and API',
+            ]}
+          />
           <Plan
             featured
-            name="Starter"
-            price="$20"
+            name="AVLA EdVentures"
+            price="$29.99/Year per User"
             description="Good for anyone who is self-employed and just getting started."
             href="/register"
             features={[
-              'Save up to 10 questions at a time',
-              'Use on one primary device',
+              'Full access to app features',
               'Track your progress over time with analytics',
-              'Full access to AVLA support',
-            ]}
-          />
-          <Plan
-            featured
-            name="Small business"
-            price="$500"
-            description="Perfect for small / medium sized businesses."
-            href="/register"
-            features={[
-              'Save up to 50 questions at a time and save history',
-              'Connect on up to four device',
-              'Track your progress over time with analytics',
-              'Full access to AVLA support and API',
-              'Access to question bank from users'
-            ]}
-          />
-          <Plan
-            featured
-            name="Educational Institutions"
-            price="$1/user"
-            description="For even the biggest enterprise companies."
-            href="/register"
-            features={[
-              'Save up to 50 questions at a time and save history',
-              'Connect on up to four device',
-              'Track your progress over time with analytics',
-              'Full access to AVLA support and API',
+              'Teacher-led sessions feature',
+              'Multidevice compatibility',
               'Access to question bank from users',
               'Teachers dashboard for smart analytics on students'
             ]}
@@ -160,5 +146,5 @@ export function Pricing() {
         </div>
       </Container>
     </section>
-  )
+  );
 }
