@@ -41,7 +41,8 @@ export default function Contact() {
         </svg>
       </div>
       <div className="max-w-2xl mx-auto text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contact</h2>
+
+        <h2 className="text-3xl font-bold tracking-tight text-transparent sm:text-4xl bg-gradient-to-r from-orange-400 to-pink-400 opacity-80 bg-clip-text">Contact</h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
           Have a question? Feel free to reach out to our team. We are here to help!
         </p>
