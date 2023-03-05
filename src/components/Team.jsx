@@ -27,7 +27,7 @@ const people = [
         imageUrl: rory,
     },
     {
-        name: 'Elka Dunning',
+        name: 'Elka Dunnette',
         role: 'Advisor',
         imageUrl: elka,
     },

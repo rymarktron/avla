@@ -114,7 +114,7 @@ export function Pricing() {
             work well for you.
           </p>
         </div>
-        <div className="grid max-w-2xl grid-cols-1 mt-16 -mx-4 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8 gap-x-8">
+        <div className="grid max-w-2xl grid-cols-1 px-8 mt-16 -mx-4 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8 gap-x-8">
         <Plan
             featured
             name="AVLA AccessED"
