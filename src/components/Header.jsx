@@ -80,6 +80,8 @@ function MobileNavigation() {
             <MobileNavLink href="#features">Features</MobileNavLink>
             <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
             <MobileNavLink href="#pricing">Pricing</MobileNavLink>
+            <MobileNavLink href="#team">Team</MobileNavLink>
+            <MobileNavLink href="#contact">Contact</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="/login">Sign in</MobileNavLink>
           </Popover.Panel>
@@ -102,6 +104,8 @@ export function Header() {
               <NavLink href="#features">Features</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
               <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href="#team">Team</NavLink>
+              <NavLink href="#contact">Contact</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">

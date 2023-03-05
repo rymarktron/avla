@@ -53,21 +53,13 @@ export function Faqs() {
     <section
       id="faq"
       aria-labelledby="faq-title"
-      className="relative py-20 overflow-hidden bg-slate-50 sm:py-32"
+      className="relative py-20 overflow-hidden bg-slate-50 sm:py-32 bg-gradient-to-r from-orange-400 to-pink-400 opacity-80"
     >
-      <Image
-        className="absolute top-0 left-1/2 max-w-none translate-x-[-30%] -translate-y-1/4"
-        src={backgroundImage}
-        alt=""
-        width={1558}
-        height={946}
-        unoptimized
-      />
       <Container className="relative">
         <div className="max-w-2xl mx-auto lg:mx-0">
           <h2
             id="faq-title"
-            className="text-3xl tracking-tight text-transparent font-display bg-gradient-to-r from-orange-400 to-pink-400 bg-clip-text opacity-80 sm:text-4xl"
+            className="text-3xl tracking-tight text-white font-display sm:text-4xl"
           >
             Frequently asked questions
           </h2>
@@ -85,7 +77,7 @@ export function Faqs() {
               <ul role="list" className="flex flex-col gap-y-8">
                 {column.map((faq, faqIndex) => (
                   <li key={faqIndex}>
-                    <h3 className="text-lg leading-7 font-display text-slate-700">
+                    <h3 className="text-lg leading-7 text-slate-900 font-display">
                       {faq.question}
                     </h3>
                     <p className="mt-4 text-sm text-slate-700">{faq.answer}</p>
@@ -99,3 +91,15 @@ export function Faqs() {
     </section>
   )
 }
+
+
+/*
+<Image
+        className="absolute top-0 left-1/2 max-w-none translate-x-[-30%] -translate-y-1/4"
+        src={backgroundImage}
+        alt=""
+        width={1558}
+        height={946}
+        unoptimized
+      />
+      */
