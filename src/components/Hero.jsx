@@ -38,7 +38,7 @@ export function Hero() {
       <div className="flex justify-center mt-10 gap-x-6">
         <Button href="/register">Try a free education account</Button>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCAeepkdi6Rs%26ab_channel%3DMichaelYu%26fbclid%3DIwAR2Hv2isj5tdYQum1b9FRDm3yOT6yG0d76R6-mfg33aAWSAWUR8PIwPHE78&h=AT1cGU_cO6Bj_nEREd8S_BFFAuKb6__Q41QGQPK74OL1EGDM51lA8NwSQjxfU8UPlbk36IkgRnZmHQxj64NVELref33JqZfDu-th0tUlKKk41BrGlxhUzXQM_gst8pQ4nouwyV-zDy94vCx9YyrvKVEc6Vo"
           variant="outline"
         >
           <svg

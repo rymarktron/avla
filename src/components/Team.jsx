@@ -3,7 +3,7 @@ import michael from '@/images/profiles/michael-yu.jpg'
 import thomas from '@/images/profiles/thomas-speciel.jpg'
 import ryan from '@/images/profiles/ryan-mark.jpeg'
 import rory from '@/images/profiles/rory-gao.jpg'
-import elka from '@/images/background-auth.jpg'
+import elka from '@/images/profiles/elka-dunnette.jpeg'
 
 const people = [
     {
